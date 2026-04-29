@@ -1,5 +1,10 @@
 # 📦 Manajemen Barang Gudang
 
+## Anggota Kelompok
+- Muhammad Azka Fadillah Abqary
+- Athir Athaya Alghifari
+- Virna Isnaya
+
 ## 📖 Deskripsi
 Sistem Manajemen Barang Gudang adalah aplikasi berbasis **C#** dengan integrasi **database relasional** yang digunakan untuk mencatat transaksi barang masuk dan keluar secara real-time. Sistem ini mendukung **multi-user login** dengan hak akses berbeda (Admin, Staff, Supervisor) serta menyediakan laporan stok yang akurat untuk membantu pengelolaan inventaris gudang.
 
