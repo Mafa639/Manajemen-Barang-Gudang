@@ -42,6 +42,27 @@ Sistem Manajemen Barang Gudang adalah aplikasi berbasis **C#** dengan integrasi 
 
 ---
 
+## ⚙️ Trigger Database
+Untuk menjaga konsistensi data, sistem menggunakan beberapa **trigger** pada tabel:
+
+1. **Trigger Update Stok Barang**
+   - Aktif saat terjadi transaksi barang masuk/keluar.
+   - Secara otomatis menambah/mengurangi jumlah stok di tabel **Barang**.
+
+2. **Trigger Audit Trail**
+   - Aktif saat ada perubahan data pada tabel **Barang** atau **Transaksi**.
+   - Menyimpan catatan perubahan ke tabel **AuditTrail**.
+
+3. **Trigger Validasi Transaksi**
+   - Aktif saat insert transaksi baru.
+   - Memastikan jumlah barang keluar tidak melebihi stok yang tersedia.
+
+4. **Trigger Log Aktivitas**
+   - Aktif saat user melakukan operasi CRUD.
+   - Mencatat aktivitas ke tabel **LogAktivitas**.
+
+---
+
 ## 🚀 Teknologi yang Digunakan
 - **C# .NET** (WinForms / ASP.NET)
 - **SQL Server / MySQL**
