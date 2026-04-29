@@ -4,7 +4,7 @@
 - Muhammad Azka Fadillah Abqary
 - Athir Athaya Alghifari
 - Virna Isnaya
-[Usage](#usage)
+
 ---
 
 ## 📖 Deskripsi
